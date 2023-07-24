@@ -1,10 +1,10 @@
 {
   "extends": [
-    "esling:recommended",
+    "eslint:recommended",
     "prettier" //Should always be placed last
   ],
   "plugins": [],
-  "paserOptions": {
+  "parserOptions": {
     "exmaVersion": 2022,
     "sourceType": "module",
     "ecmaFeatures": {
