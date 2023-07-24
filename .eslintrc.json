@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "esling:recommended",
+    "prettier" //Should always be placed last
+  ],
+  "plugins": [],
+  "paserOptions": {
+    "exmaVersion": 2022,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  }
+}
