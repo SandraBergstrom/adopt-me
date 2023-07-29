@@ -1,11 +1,8 @@
 {
-  "extends": [
-    "eslint:recommended",
-    "prettier" //Should always be placed last
-  ],
+  "extends": ["eslint:recommended", "prettier"],
   "plugins": [],
   "parserOptions": {
-    "exmaVersion": 2022,
+    "ecmaVersion": 2022,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
